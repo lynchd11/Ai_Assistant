@@ -1,0 +1,17 @@
+{
+  "name": "ai-personal-assistant",
+  "version": "1.0.0",
+  "description": "AI Personal Assistant using Supabase, JavaScript, and Web Speech API",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "serve public"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.35.3"
+  },
+  "devDependencies": {
+    "serve": "^13.0.2"
+  },
+  "author": "lynchd11",
+  "license": "MIT"
+}
