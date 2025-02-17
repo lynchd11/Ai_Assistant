@@ -7,8 +7,8 @@ document.getElementById('user-input').addEventListener('keypress', function (e) 
     }
 });
 
-const supabaseUrl = 'https://zcivqzpxniqndgmnqpxr.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpjaXZxenB4bmlxbmRnbW5xcHhyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzk1Njk2MjAsImV4cCI6MjA1NTE0NTYyMH0.TCC1V61lSO10ot7zAbTyAlzlfK3nZxPL-6D7l_QVDk0';
+const supabaseUrl = 
+const supabaseKey = 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 function sendMessage() {
